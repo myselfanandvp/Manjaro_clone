@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.navbar{
+  display: flex;
+  width: 100%;
+  height: 62px;
+  background-color: rgb(17, 24, 39);
+
+    
+}
+
+.logo,.links{
+  background-color: rgb(17, 24, 39);
+  
+}
+
+.logo{
+width: 50%;
+
+padding-left: 330px;
+display: flex;
+align-items: center;
+}
+
+.logo h1{
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.logo img{
+  width: 30px;
+  padding-right: 10px;
+}
+
+.links{
+width: 50%;
+display: flex;
+align-items: center;
+padding-left: 116px;
+gap:30px;
+
+}
+
+.links a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.links img{
+  width: 35px;
+}
+
+
+/* Ending of navbar */
+
+
+
+.section1{
+  width: 100%;
+  background-color: rgb(36, 123, 160);
+  display: flex;
+  height: 60vh;
+  
+}
+
+
+.content{
+  margin-left: 221px;
+  width: 30%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 128px;
+}
+
+.content h2{
+  font-size: 36px;
+}
+
+.content p{
+  padding-top: 30px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contentimg{
+  width: 50%;
+  background-color:transparent;
+  display: flex;
+  align-items: center;
+ 
+  overflow: hidden;
+}
+
+.contentimg img{
+  width: 600px;
+}
+
+
+
+
+.downloadbutton button{
+  margin-top: 10px;
+  color: rgb(148, 171, 187);
+  width: 188px;
+  height: 65px;
+  border-radius: 9px;
+  font-size: 18px;
+  font-weight: 700;
+  border:none;
+  background-color: rgb(25, 30, 36);
+ 
+}
+
+.downloadbutton i{
+padding-left: 10px;
+}
+
+
+
+.section2{
+  height: 90vh;
+  background-color: rgb(2, 17, 27);
+}
+
+
+.partone{
+  width: 100%;
+  background-color: rgb(2, 17, 27);
+  display: flex;
+
+
+}
+
+
+
+
+.infomations{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: center;
+  margin-left: 300px;
+
+  
+
+}
+
+.infomations h2{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.infomations p{
+  line-height: 25px;
+}
+
+.pramidimg{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  height: 400px;
+}
+
+.pramidimg img{
+  width: 500px;
+  padding-left: 76px;
+  padding-top: 50px;
+}
+
+
+.parttwo{
+  width: 100%;
+  background-color:rgb(2, 17, 27);
+  display: flex;
+  align-items: center;
+  }
+
+
+.companyimg{
+  width: 80%;
+  margin-left: 319px;
+  display: flex;
+  align-items: center;
+  object-fit: cover;
+}
+
+.companyimg img{
+  width: 620px;
+ 
+}
+
+
+.company-info{
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+
+.company-info h2{
+  font-size: 30px;
+
+}
+
+.innertextdiv{
+  padding-right:326px
+}
+
+
+.leanbtn{
+  background-color: rgb(25, 30, 36);
+  color: rgb(166, 173, 187);
+  width: 115px;
+  height: 44px;
+  margin-top: 25px;
+  border: none;
+  border-radius:5px;
+}
+
+
+.footer{
+  width: 100%;
+  height:15vh;
+  background-color: rgb(17, 24, 39);
+  display: flex;
+
+}
+
+
+.logodiv{
+  display: flex;
+  flex-direction: column;
+  gap:12px;
+  width: 50%;
+  margin-left: 315px;
+  
+}
+
+
+.logofooter{
+  display: flex;
+  align-items: center;
+margin-top: 5%;
+font-size: 10px;
+gap:10px
+
+ 
+}
+
+.logofooter h1{
+  color: rgb(156, 163, 175);
+}
+
+.logofooter img{
+  width: 30px;
+}
+
+
+.paradiv {
+  margin-top: 10px;
+  padding-right: 8%;
+}
+
+.paradiv p{
+  color: rgb(156, 163, 175);
+}
+
+
+.footertags{
+  display: flex;
+  width: 100%; 
+  padding-top: 25px;
+  text-align: left;
+  padding-right: 300px;
+ 
+  justify-content: space-around;
+}
+
+.footertags p{
+  color:rgb(156, 161, 135);
+  font-size: 19px;
+  font-weight: 600;
+}
+
+
+.footer li{
+  list-style: none;
+  color:rgb(116, 161, 175);
+font-size:15px;
+  margin-top: 10px;
+}
+
+
+.footertags {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footertags p {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.footer-line {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  height: 10vh;
+  background-color: rgb(17, 24, 39);
+  text-align: center;
+  font-size: 14px;
+  color: rgb(156, 163, 175);
+}
+
+
+.footer-last-line{
+  display: flex;
+  width: 68%;
+  border-top: rgb(229, 231, 235) solid;
+  border-width: 1px;
+  align-items: baseline;
+  justify-content: space-between;
+
+  
+  
+}
+
+
+.footer-last-line h4{
+  color: rgb(66, 83, 89);
+  margin-top: 20px;
+}
+
+
+.logos{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  
+}
+
+
+.links a:hover{
+  color: rgb(40, 186, 164);
+  cursor: pointer;
+}
+
+
+button:hover{
+  background-color: rgb(37, 46, 48)
+}
+
+#footerpara{
+  color: rgb(80, 119, 133)
+}
+
